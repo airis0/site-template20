@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>百人一首（Sample-Site20）</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>
+    <img src="images/logo.png" alt="タイトルロゴ">
+  </h1>
+</header>
+
+<main>
+  <div class="top-image">
+    <img src="images/image1.jpg" alt="メイン画像：和室">
+  </div>
+
+  <section>
+    <div class="section-inner">
+      <h2>百人一首とは</h2>
+      <p>
+        百人一首とは、主に平安時代に詠まれた和歌（短歌）を100人分集めたものです。<br>
+        「百人の詠み手が、一人一首ずつ詠んだ」ことから、百人一首と呼ばれています。<br>
+        現在、日本で広く知られているのは「小倉百人一首」という名前のもので、一般的に「百人一首」というと、これを指しています。<br>
+        読み手が読み上げる歌の上の句を聞いて、出来るだけ早く下の句の書かれた札を取りに行く競技です。
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-inner">
+      <h2>このサイトについて</h2>
+      <p>
+        このサイトはaiが作成したHTMLのテンプレートです。<br>
+        使用する場合、文面・画像を差し替えて、お使いください。<br>
+        ダウンロードは<a href="https://github.com/airis0/site-template20">こちら</a>です。
+      </p>
+
+      <h2>百人一首 体験会</h2>
+      <p>
+        20XX年10月25日に「百人一首 体験会」を実施します。<br>
+        お友達との参加も可能です。<br>
+        奮ってご参加ください。<br>
+        一緒に百人一首を楽しみましょう！
+      </p>
+      <p>
+        なお、以下、百人一首の参考資料です。<br>
+        良ければ、ご活用下さい。
+      </p>
+      <ul>
+        <li><a href="pdf/hyakuninixtusyu_itiran.pdf" target="blank">百人一首 一覧</a></li>
+        <li><a href="pdf/hyakuninixtusyu_kimari_b4.pdf" target="blank">百人一首 決まり字 B4サイズ1枚</a></li>
+        <li><a href="pdf/hyakuninixtusyu_kimari_a4.pdf" target="blank">百人一首 決まり字 A4サイズ2枚</a></li>
+      </ul>
+
+      <table>
+        <tr>
+          <th>イベント名</th>
+          <td>百人一首 体験会</td>
+        </tr>
+        <tr>
+          <th>日時</th>
+          <td>
+            20XX年10月25日（日）<br>
+            1o時～12時
+          </td>
+        </tr>
+        <tr>
+          <th>会場</th>
+          <td>
+            〒163-8001<br>
+            東京都新宿区西新宿〇丁目〇〇<br>
+            〇〇〇ホール
+          </td>
+        </tr>
+        <tr>
+          <th>参加費</th>
+          <td>500円</td>
+        </tr>
+        <tr>
+          <th>主催</th>
+          <td>
+            〒163-8001<br>
+            東京都新宿区西新宿〇丁目〇〇<br>
+            株式会社〇〇〇
+          </td>
+        </tr>
+      </table>
+      
+    </div>
+  </section>
+  
+  <div class="form-img-area">
+    <img src="images/image2.jpg" alt="写真：和室">
+  </div>
+
+  <section>
+    <div class="section-inner">
+      <h2>申し込みフォーム</h2>
+      <form action="program.php" method="post">
+        <dl>
+          <dt><label for="user-name">氏名</label></dt>
+          <dd><input name="user-name" id="user-name" type="text"></dd>
+          <dt><label for="user-email">メールアドレス</label></dt>
+          <dd><input name="user-email" id="user-email" type="text"></dd>
+          <dt>百人一首を遊んだ経験はありますか</dt>
+          <dd>
+            <input type="radio" name="play" value="はい" id="play-yes"><label for="play-yes">はい</label>
+            <input type="radio" name="play" value="いいえ" id="play-no"><label for="play-no">いいえ</label>
+          </dd>
+        </dl>
+        <div class="form-submit">
+          <button name="submit" id="submit" type="submit">申し込む</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <small>Copyright &copy; Sample-Site 2022</small>
+</footer>
+
+</body>
+</html>
+
+
